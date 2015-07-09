@@ -36,7 +36,7 @@ getShortConf(const lua_State *L, const char *name) {
     return ret;
 }
 
-static void
+static BuddaConf *
 loadConf(const char *confPath) {
     lua_State *L = luaL_newstate();
     luaL_openlibs(L);

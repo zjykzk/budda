@@ -4,7 +4,6 @@
 #include "hredis.h"
 #include "conf.h"
 
-
 static void
 bootstart(const char *confPath) {
     loadConf(confPath);
